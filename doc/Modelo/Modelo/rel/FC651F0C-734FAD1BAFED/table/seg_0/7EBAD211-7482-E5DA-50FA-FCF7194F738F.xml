@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EBAD211-7482-E5DA-50FA-FCF7194F738F" name="Relation_7">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario_id" id="AAFFBBFF-547A-FFAC-3F7D-87487190FE40">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D51C7D7-E2DC-6ACD-4752-D73E761574D8" referredColumn="74B639B3-0050-93E5-F130-FB130ABD6DD3"/>
+</associations>
+</Column>
+<Column name="Solicitud_id" id="24116C38-8F7E-4A42-4965-DF6A76A72648">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB3CE5D8-A4CA-FB3A-F541-92F4828EA549" referredColumn="652A31FA-C829-CB5E-604C-609A91B5C82E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39F263DC-E3CA-1749-DF15-B0EBE9D0968F" name="Relation_7_PK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAFFBBFF-547A-FFAC-3F7D-87487190FE40"/>
+<colUsage columnID="24116C38-8F7E-4A42-4965-DF6A76A72648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADF2C774-C073-A7FF-4CEA-B587AE6D471C" name="Relation_7_Usuario_FK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<generatorID>CA4584B6-38AF-0E71-1D75-7D80A5BC2BDB</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAFFBBFF-547A-FFAC-3F7D-87487190FE40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8244FEB-2974-B4BA-9000-E08494FCAFEC" name="Relation_7_Solicitud_FK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<generatorID>CA4584B6-38AF-0E71-1D75-7D80A5BC2BDB</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24116C38-8F7E-4A42-4965-DF6A76A72648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

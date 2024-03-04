@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A253A1EE-C1CD-97FA-BA8A-8690C9BC7DCF" name="Solicitud">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:12:43 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="78F0EFDB-2FA0-C739-7EFF-1870BFFFCB09">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:13:48 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaInicio" id="ADB280EE-CE5D-FF98-FE68-51F43953642D">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:14:23 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaFin" id="A8D278C8-CE68-A5C2-0C9A-B49328FBA384">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:15:20 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="04C99E6D-E672-556A-0471-506A9CE1BE35">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:15:57 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3EC6083E-ABA3-B957-4973-1BB3FA2BBD8D">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:50:15 UTC</createdTime>
+<generatorID>66E7C87D-4912-D486-F707-094BB6BA1885</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<referedAttribute>CCDBB8A2-1D3E-41A1-67E1-22BF74CD64E9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="760AEAE2-C7DA-3D00-8F99-55255B415CBF">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:52:36 UTC</createdTime>
+<generatorID>A217C16A-2BCD-CEAB-DB6F-5124BF1E40EB</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<referedAttribute>4C6FE13E-CEF9-AE9B-045B-A5439194E818</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7085F254-E0B2-B534-426B-C2E854FA8CC3" name="Solicitud PK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:13:56 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78F0EFDB-2FA0-C739-7EFF-1870BFFFCB09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

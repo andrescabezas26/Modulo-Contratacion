@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A4E614C-5FD2-1E31-0A2D-C39B92B7CB0E" name="GestorDeProceso">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>BCFF9FF9-6219-F254-F57A-430D7E8E45CE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0842D645-24AF-451D-7DAF-7015E13A58F1">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>37436C3D-2661-C907-776D-034E3F5C2943</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B699E34E-63A5-B477-7625-19EF23A2444C" referredColumn="74B639B3-0050-93E5-F130-FB130ABD6DD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CD1BD24-3E20-405D-963C-5A72186B2765" name="GestorDeProceso_PK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>A069B4E1-B86B-5C10-AC45-E7EDCE4BECA3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0842D645-24AF-451D-7DAF-7015E13A58F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D64D708-DE18-23EE-A42C-ACA0797D5DCE" name="GestorDeProceso_Usuario_FK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>9AD26B67-4D58-A351-11A1-ACA8E1A0F22A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0842D645-24AF-451D-7DAF-7015E13A58F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

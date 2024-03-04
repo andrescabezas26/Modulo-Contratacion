@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8F41D90-75BF-8B7C-B496-5146BCC7C4F9" name="Usuario">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>B0DA5815-94D7-4296-DB77-8DD5E90D65BC</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="74B639B3-0050-93E5-F130-FB130ABD6DD3">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>37436C3D-2661-C907-776D-034E3F5C2943</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F9356FB2-C980-2CDB-F81F-74E9AE8423F2">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>8919D719-FF7D-F2C9-7DD0-4947C3A26E26</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C256D38A-3EF6-D298-6F32-E45A66EDCC28" name="Usuario_PK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>A069B4E1-B86B-5C10-AC45-E7EDCE4BECA3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B639B3-0050-93E5-F130-FB130ABD6DD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

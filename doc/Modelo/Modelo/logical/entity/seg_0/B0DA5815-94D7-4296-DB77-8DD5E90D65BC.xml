@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0DA5815-94D7-4296-DB77-8DD5E90D65BC" name="Usuario">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:17:13 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="37436C3D-2661-C907-776D-034E3F5C2943">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:17:33 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="8919D719-FF7D-F2C9-7DD0-4947C3A26E26">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:17:49 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A069B4E1-B86B-5C10-AC45-E7EDCE4BECA3" name="Usuario PK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 22:17:45 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="FC651F0C-166B-62C5-13DC-734FAD1BAFED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37436C3D-2661-C907-776D-034E3F5C2943</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

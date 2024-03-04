@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="568B71E8-D559-9AFC-5F27-C172B522D4D2" name="Solicitud">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>A253A1EE-C1CD-97FA-BA8A-8690C9BC7DCF</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="652A31FA-C829-CB5E-604C-609A91B5C82E">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>78F0EFDB-2FA0-C739-7EFF-1870BFFFCB09</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaInicio" id="C62B2DB3-1A41-7020-DE9B-A521DE99FDFD">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>ADB280EE-CE5D-FF98-FE68-51F43953642D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaFin" id="8E2BAD8A-EBB2-DE54-9F01-1EA3293357BD">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>A8D278C8-CE68-A5C2-0C9A-B49328FBA384</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="D87F49AA-BC89-516A-D656-22F2B1BC09CD">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>04C99E6D-E672-556A-0471-506A9CE1BE35</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cenco_id" id="4C251622-8DF4-4D0F-E7BC-218C0EB3E073">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>3EC6083E-ABA3-B957-4973-1BB3FA2BBD8D</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E394DB6-290B-1BDC-BEAE-1EF587451E54" referredColumn="E0F14045-89A5-7F35-B698-83AF3BB8F0C0"/>
+</associations>
+</Column>
+<Column name="TipoContrato_id" id="16665E55-0C80-D0A8-00DD-585DF3010B8E">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>760AEAE2-C7DA-3D00-8F99-55255B415CBF</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F677B15-552F-4A4B-DD4E-F1147FF7B876" referredColumn="3F7B05EE-C27F-40B1-D3FF-896E42EDB369"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07E8F4A3-33F6-A3DE-9CDF-683152C1A730" name="Solicitud_PK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>7085F254-E0B2-B534-426B-C2E854FA8CC3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="652A31FA-C829-CB5E-604C-609A91B5C82E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96433780-5869-6245-E04E-25F803EBB7FD" name="Solicitud_Cenco_FK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>66E7C87D-4912-D486-F707-094BB6BA1885</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C251622-8DF4-4D0F-E7BC-218C0EB3E073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0382CBB-6945-6E93-8C96-8DBEE6E8FBCB" name="Solicitud_TipoContrato_FK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<generatorID>A217C16A-2BCD-CEAB-DB6F-5124BF1E40EB</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16665E55-0C80-D0A8-00DD-585DF3010B8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B14903CB-AA98-8FD3-D728-7A8CA48D1798" name="Solicitud_Observacion_FK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:06 UTC</createdTime>
+<generatorID>0BED1CDF-66A8-9C01-D211-F074A86802F3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

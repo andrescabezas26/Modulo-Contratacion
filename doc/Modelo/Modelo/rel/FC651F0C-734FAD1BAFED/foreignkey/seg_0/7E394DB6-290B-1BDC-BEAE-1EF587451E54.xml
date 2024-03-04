@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E394DB6-290B-1BDC-BEAE-1EF587451E54" containerWithKeyObject="568B71E8-D559-9AFC-5F27-C172B522D4D2" localFKIndex="96433780-5869-6245-E04E-25F803EBB7FD" name="Solicitud_Cenco_FK">
+<createdBy>davidef</createdBy>
+<createdTime>2024-03-03 23:23:05 UTC</createdTime>
+<generatorID>66E7C87D-4912-D486-F707-094BB6BA1885</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<referredTableLongName>Cenco</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13C802DA-C671-63BC-0650-0CF9FBD4AAAD</referredTableID>
+<keyObject>10FC1D0C-873D-8925-B495-EBA47DC71BA1</keyObject>
+<referredKeyID>10FC1D0C-873D-8925-B495-EBA47DC71BA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
